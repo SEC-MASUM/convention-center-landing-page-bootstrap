@@ -27,8 +27,9 @@
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container">
-          <a class="navbar-brand fw-bolder fs-6" href="#"
-            >RoseView Convention Center</a
+          <a class="navbar-brand fw-bolder text-wrap d-block w-50" href="#"
+            ><span class="text-danger opacity-70">RoseView</span> Convention
+            Center</a
           >
           <button
             class="navbar-toggler"
@@ -47,13 +48,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#gallery">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#our-package">Our Package</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Subscribe</a>
+                <a class="nav-link" href="#faq">FAQ</a>
               </li>
             </ul>
           </div>
@@ -245,10 +246,9 @@
         </div>
       </div>
       <!-- Gallery -->
-      <section>
-        <h1 class="text-center fw-bold my-5 py-5">Gallery</h1>
-
+      <section id="#gallery">
         <div class="container" id="gallery">
+          <h1 class="text-center fw-bold my-5 py-5">Gallery</h1>
           <div class="row gy-4">
             <div class="col-sm-12 col-md-6 col-lg-3 photo text-center">
               <img
@@ -338,16 +338,16 @@
         </div>
       </section>
       <!-- Our Package -->
-      <section>
-        <div class="container overflow-hidden my-5">
+      <section id="our-package">
+        <div class="container my-5">
           <h1 class="text-center fw-bold my-5 py-5">Our package</h1>
           <div class="row gy-5">
             <div class="col-sm-12 col-md-6 col-lg-3">
-              <div class="p-3">
+              <div class="p-3 shadow-sm rounded-3">
                 <h3 class="fw-bold my-3">$300</h3>
-                <h4 class="fw-bold my-2">Business fair</h4>
+                <h4 class="fw-bold my-2 text-capitalize">Job fair</h4>
                 <p class="text-secondary mb-0">
-                  For most businesses event like book fair, craft fair.
+                  For most job like technical job fair, non-technical job fair.
                 </p>
                 <ul class="list-group text-secondary my-2">
                   <li
@@ -357,7 +357,7 @@
                       ><i
                         class="bg-danger text-danger bg-opacity-25 rounded-circle me-2 p-1 fas fa-check"
                       ></i></small
-                    >Limited space access
+                    >Limited space
                   </li>
                   <li
                     class="list-group-item bg-transparent border-0 text-secondary px-0"
@@ -375,7 +375,7 @@
                       ><i
                         class="bg-danger text-danger bg-opacity-25 rounded-circle me-2 p-1 fas fa-check"
                       ></i></small
-                    >Event support
+                    >Full event support
                   </li>
                   <li
                     class="list-group-item bg-transparent border-0 text-secondary px-0"
@@ -384,7 +384,7 @@
                       ><i
                         class="bg-danger text-danger bg-opacity-25 rounded-circle me-2 p-1 fas fa-check"
                       ></i></small
-                    >Decoration design
+                    >Help to decoration
                   </li>
                   <li
                     class="list-group-item bg-transparent border-0 text-secondary px-0"
@@ -405,11 +405,11 @@
               </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
-              <div class="p-3">
+              <div class="p-3 shadow-sm rounded-3">
                 <h3 class="fw-bold my-3">$500</h3>
-                <h4 class="fw-bold my-2">Wedding basic</h4>
+                <h4 class="fw-bold my-2 text-capitalize">Wedding basic</h4>
                 <p class="text-secondary mb-0">
-                  For most businesses event like book fair, craft fair.
+                  For weddings with spacific facility.
                 </p>
                 <ul class="list-group text-secondary my-2">
                   <li
@@ -419,7 +419,7 @@
                       ><i
                         class="bg-danger text-danger bg-opacity-25 rounded-circle me-2 p-1 fas fa-check"
                       ></i></small
-                    >Limited space access
+                    >Full space access
                   </li>
                   <li
                     class="list-group-item bg-transparent border-0 text-secondary px-0"
@@ -428,7 +428,7 @@
                       ><i
                         class="bg-danger text-danger bg-opacity-25 rounded-circle me-2 p-1 fas fa-check"
                       ></i></small
-                    >Secuirty facility
+                    >Parking facility
                   </li>
                   <li
                     class="list-group-item bg-transparent border-0 text-secondary px-0"
@@ -437,7 +437,7 @@
                       ><i
                         class="bg-danger text-danger bg-opacity-25 rounded-circle me-2 p-1 fas fa-check"
                       ></i></small
-                    >Event support
+                    >Security Gard with CC camera
                   </li>
                   <li
                     class="list-group-item bg-transparent border-0 text-secondary px-0"
@@ -446,7 +446,7 @@
                       ><i
                         class="bg-danger text-danger bg-opacity-25 rounded-circle me-2 p-1 fas fa-check"
                       ></i></small
-                    >Decoration design
+                    >Food serve
                   </li>
                   <li
                     class="list-group-item bg-transparent border-0 text-secondary px-0"
@@ -455,7 +455,7 @@
                       ><i
                         class="bg-danger text-danger bg-opacity-25 rounded-circle me-2 p-1 fas fa-check"
                       ></i></small
-                    >Per day bill
+                    >Per shift bill
                   </li>
                 </ul>
                 <a
@@ -467,52 +467,52 @@
               </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
-              <div class="bg-info p-3 rounded-3 position-relative text-dark">
+              <div
+                class="bg-info p-3 rounded-3 position-relative text-dark shadow"
+              >
                 <span
                   class="position-absolute top-0 end-0 translate-middle badge rounded-pill bg-danger"
                 >
                   Popular
                 </span>
                 <h3 class="fw-bold my-3">$800</h3>
-                <h4 class="fw-bold my-2">Wedding plus</h4>
-                <p class="mb-0">
-                  For most businesses event like book fair, craft fair.
-                </p>
+                <h4 class="fw-bold my-2 text-capitalize">Wedding plus</h4>
+                <p class="mb-0">For most weddings with premium servies.</p>
                 <ul class="list-group my-2">
                   <li class="list-group-item bg-transparent border-0 px-0">
                     <small
                       ><i
                         class="bg-danger bg-opacity-25 rounded-circle me-2 p-1 fas fa-check"
                       ></i></small
-                    >Limited space access
+                    >Full space access with roof top
                   </li>
                   <li class="list-group-item bg-transparent border-0 px-0">
                     <small
                       ><i
                         class="bg-danger bg-opacity-25 rounded-circle me-2 p-1 fas fa-check"
                       ></i></small
-                    >Secuirty facility
+                    >Buffet food
                   </li>
                   <li class="list-group-item bg-transparent border-0 px-0">
                     <small
                       ><i
                         class="bg-danger bg-opacity-25 rounded-circle me-2 p-1 fas fa-check"
                       ></i></small
-                    >Event support
+                    >Decoration Team
                   </li>
                   <li class="list-group-item bg-transparent border-0 px-0">
                     <small
                       ><i
                         class="bg-danger bg-opacity-25 rounded-circle me-2 p-1 fas fa-check"
                       ></i></small
-                    >Decoration design
+                    >Premium Lighing
                   </li>
                   <li class="list-group-item bg-transparent border-0 px-0">
                     <small
                       ><i
                         class="bg-danger bg-opacity-25 rounded-circle me-2 p-1 fas fa-check"
                       ></i></small
-                    >Per day bill
+                    >Pay as plan
                   </li>
                 </ul>
                 <a
@@ -524,11 +524,11 @@
               </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
-              <div class="p-3">
+              <div class="p-3 shadow-sm rounded-3">
                 <h3 class="fw-bold my-3">$1200</h3>
-                <h4 class="fw-bold my-2">Corporate event</h4>
+                <h4 class="fw-bold my-2 text-capitalize">Corporate event</h4>
                 <p class="text-secondary mb-0">
-                  For most businesses event like book fair, craft fair.
+                  For most corporate annual business events
                 </p>
                 <ul class="list-group text-secondary my-2">
                   <li
@@ -538,7 +538,7 @@
                       ><i
                         class="bg-danger text-danger bg-opacity-25 rounded-circle me-2 p-1 fas fa-check"
                       ></i></small
-                    >Limited space access
+                    >Full space access with garden
                   </li>
                   <li
                     class="list-group-item bg-transparent border-0 text-secondary px-0"
@@ -547,7 +547,7 @@
                       ><i
                         class="bg-danger text-danger bg-opacity-25 rounded-circle me-2 p-1 fas fa-check"
                       ></i></small
-                    >Secuirty facility
+                    >Parking facility
                   </li>
                   <li
                     class="list-group-item bg-transparent border-0 text-secondary px-0"
@@ -556,7 +556,7 @@
                       ><i
                         class="bg-danger text-danger bg-opacity-25 rounded-circle me-2 p-1 fas fa-check"
                       ></i></small
-                    >Event support
+                    >Event support team
                   </li>
                   <li
                     class="list-group-item bg-transparent border-0 text-secondary px-0"
@@ -565,7 +565,7 @@
                       ><i
                         class="bg-danger text-danger bg-opacity-25 rounded-circle me-2 p-1 fas fa-check"
                       ></i></small
-                    >Decoration design
+                    >Premium Decoration
                   </li>
                   <li
                     class="list-group-item bg-transparent border-0 text-secondary px-0"
@@ -574,7 +574,7 @@
                       ><i
                         class="bg-danger text-danger bg-opacity-25 rounded-circle me-2 p-1 fas fa-check"
                       ></i></small
-                    >Per day bill
+                    >Pay per hour
                   </li>
                 </ul>
                 <a
@@ -590,7 +590,7 @@
       </section>
 
       <!-- Frequently Asked Questions -->
-      <section>
+      <section id="faq">
         <div class="container my-5">
           <h1 class="text-center fw-bold my-5 py-5">
             Frequently Asked Questions
@@ -610,8 +610,7 @@
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      What’s the difference between event design and event
-                      planning?
+                      Is event management and event planning the same?
                     </button>
                   </h2>
                   <div
@@ -621,15 +620,11 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong>
-                      It is shown by default, until the collapse plugin adds the
-                      appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      Event management and event planning may work together, but
+                      they are completely different positions. Event planning is
+                      the creative and pre-event side of event design, and the
+                      event manager deals with the practical pieces and same day
+                      logistics.
                     </div>
                   </div>
                 </div>
@@ -643,7 +638,8 @@
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      How early do we need to start planning an event
+                      How far ahead of time should you start planning your
+                      event?
                     </button>
                   </h2>
                   <div
@@ -653,15 +649,13 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong>
-                      It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      Planning an event can take from weeks to months, it really
+                      depends on the size and the details that the event
+                      involves. Having enough time allows you to comfortably
+                      cover different areas and prepare yourself for potential
+                      scenarios that might happen so you can consider various
+                      options prior the date. You always need more time than you
+                      think!
                     </div>
                   </div>
                 </div>
@@ -675,7 +669,7 @@
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      What is your refund and cancellation policy?
+                      What is our refund and cancellation policy?
                     </button>
                   </h2>
                   <div
@@ -685,15 +679,10 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong>
-                      It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      Cancellations made 7 days or more in advance of the event
+                      date, will receive a 100% refund. Cancellations made
+                      within 3 - 6 days will incur a 20% fee. Cancellations made
+                      within 48 hours to the event will incur a 30% fee.
                     </div>
                   </div>
                 </div>
@@ -707,7 +696,7 @@
                       aria-expanded="false"
                       aria-controls="collapseFour"
                     >
-                      How do you keep budgets on track?
+                      How do you keep your event budgets on track?
                     </button>
                   </h2>
                   <div
@@ -717,15 +706,17 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong>
-                      It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      <strong
+                        >Out The Office we have set three easy tips to help you
+                        keep your budgets on track and still have a great
+                        time.</strong
+                      >
+                      <br />
+                      1. Review any and every expense
+                      <br />
+                      2. Setting goals and targets
+                      <br />
+                      3. Discuss your plan of action regularly
                     </div>
                   </div>
                 </div>
